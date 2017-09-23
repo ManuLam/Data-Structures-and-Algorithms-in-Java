@@ -1,7 +1,7 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class LinkedList<Item> implements Iterable<Item> {
+public class LinkedStack<Item> implements Iterable<Item> {
 	private int n; //size
 	private Node first; //
 
