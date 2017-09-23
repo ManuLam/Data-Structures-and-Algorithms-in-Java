@@ -1,7 +1,7 @@
-public class LinkedListTester {
+public class LinkedStackTester {
 
     public static void main(String[]args) {
-    	LinkedList<String> list = new LinkedList<String>();
+    	LinkedStack<String> list = new LinkedStack<String>();
 
     	list.insert("this");
     	list.insert("is");
