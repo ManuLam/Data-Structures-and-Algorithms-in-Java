@@ -5,7 +5,7 @@ public class LinkedStack<Item> implements Iterable<Item> {
 	private int n; //size
 	private Node first; //
 
-	  public LinkedList() {
+	  public LinkedStack() {
 	  	first = null;
 	  	n = 0;
 	  	assert check();
